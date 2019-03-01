@@ -5,97 +5,153 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <title>Portfolio</title>
+    
+    <!-- Link to Bootstrap CSS here-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
+        integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- Link to my style sheet here -->
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 
-     <!-- Link to Bootstrap CSS here-->
-     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-     <!-- Link to my stylesheet here -->
-     <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
 
 </head>
 
 <body>
 
-    <!-- Header includes h1 and nav bar-->
-    <header>
-        <div class="clearfix">
+    
+    <!-- Bootstrap container -->
+    <div class="container">
+    
+     <!-- Adds white space -->
+     <div class="col-12" style="height:50px;"></div>
 
-            <div class="name">
+    <header>
+
+        <div class="row">
+            
+            <div class="col-5">
                 <h1>Sarah Beecroft</h1>
             </div>
 
-            <div class="nav">
+            <!-- Adds spacing between h1 and nav-->
+            <div class="col-2"></div>
+
+            <div class="col-5">
+
+                <!-- Navbar -->
                 <nav>
-                    <ul>
-                        <li><a href="index.html">About</a></li>
-                        <li><a href="portfolio.html">Portfolio</a></li>
-                        <li><a href="contact.html">Contact</a></li>
+                    
+                    <ul class="nav justify-content-end"> <!-- Fixes navlinks to right -->
+
+                        <li class="nav-item">
+                            <a class="nav-link" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link active" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        
                     </ul>
+                
                 </nav>
+                
             </div>
+        
         </div>
 
     </header>
-
-    <!-- Portfolio HTML -->
-    <div class="portfolio">
-        <h2>Portfolio</h2>
-        <hr>
-
-    <!-- Portfolio Gallery Grid -->
-    <!-- First image -->
+          
         <div class="row">
-            <div class="column">
-                <div class="image">
-                    <img src="assets/images/hangman.jpg" alt="Man holding tablet">
-                    <div class="bottom-center">Hangman</div>
-                </div> 
+
+            <div class="col-4">
+                <h2>Portfolio</h2>
             </div>
         
-    <!-- Second image -->
-        <div class="column">
-            <div class="image">
-                <img src="assets/images/rpggame.jpg" alt="Technology">
-                <div class="bottom-center">RPG Game</div>
-            </div>    
-        </div>
-    </div>
-
-    <!-- Third image -->
-        <div class="row">
-            <div class="column">
-                    <div class="image">
-                <img src="assets/images/triviagame.jpg" alt="Earbuds">
-                <div class="bottom-center">Trivia Game</div>
+        <!-- Adds line break beneath h2 -->
+        <div class="col-12">
+        
+            <div class="row">
+                <hr>
             </div>
-        </div>
-              
-    <!-- Fourth image -->
-        <div class="column">
-            <div class="image">
-                <img src="assets/images/rutgersinfowidget.jpg" alt="Phone and earbuds">
-                <div class="bottom-center">Rutgers Info Widget</div>  
-            </div>  
-        </div>
-    </div> 
 
-    <!-- Fifth image -->
-        <div class="row">
+        </div>
+
+        <!-- Adds white space -->
+        <div class="col-12" style="height:20px;"></div>
+
+        <!-- Portfolio HTML -->
+
+        <div class="portfolio">
+    
+        <!-- Portfolio Gallery Grid -->
+        <!-- First image -->
+            <div class="row">
+                <div class="column">
+                    <div class="image">
+                        <img src="assets/images/hangman.jpg" alt="Man holding tablet">
+                        <div class="bottom-center">Hangman</div>
+                    </div> 
+                </div>
+            
+        <!-- Second image -->
             <div class="column">
                 <div class="image">
-                    <img src="assets/images/rockpaperscissors.jpg" alt="LED TV">
-                    <div class="bottom-center">Rock Paper Scissors</div>
-                </div>        
+                    <img src="assets/images/rpggame.jpg" alt="Technology">
+                    <div class="bottom-center">RPG Game</div>
+                </div>    
             </div>
         </div>
+    
+        <!-- Third image -->
+            <div class="row">
+                <div class="column">
+                        <div class="image">
+                    <img src="assets/images/triviagame.jpg" alt="Earbuds">
+                    <div class="bottom-center">Trivia Game</div>
+                </div>
+            </div>
+                  
+        <!-- Fourth image -->
+            <div class="column">
+                <div class="image">
+                    <img src="assets/images/rutgersinfowidget.jpg" alt="Phone and earbuds">
+                    <div class="bottom-center">Rutgers Info Widget</div>  
+                </div>  
+            </div>
+        </div> 
+    
+        <!-- Fifth image -->
+            <div class="row">
+                <div class="column">
+                    <div class="image">
+                        <img src="assets/images/rockpaperscissors.jpg" alt="LED TV">
+                        <div class="bottom-center">Rock Paper Scissors</div>
+                    </div>        
+                </div>
+            </div>
+        </div>
+        
+        <!-- Adds white space -->
+        <div class="col-12" style="height:50px;"></div>
+
+        <div class="row">
+
+            <div class="col-12">
+
+                    <div class="footer">
+                            <footer>
+                                <p id="copyright">Copyright ©</p>
+                            </footer>
+                    </div>        
+
+            </div>
+
+        </div>
+
     </div>
 
-
-    <!-- Footer HTML -->
-    <div class="footer">
-        <footer>
-            <p id="copyright">Copyright ©</p>
-        </footer>
-    </div>
+</div>
 
 </body>
 
