@@ -10,68 +10,124 @@
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
         integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
     <!-- Link to my style sheet here -->
-    <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+    <link rel="stylesheet" type="text/css" href="assets/css/style.css"/>
 
 
 </head>
 
 <body>
 
-    <!-- Header includes h1 and nav bar-->
-    <header>
-        <div class="clearfix">
+    
+    <!-- Bootstrap container -->
+    <div class="container">
+    
+     <!-- Adds white space -->
+     <div class="col-md-12" style="height:50px;"></div>
 
-            <div class="name">
+    <header>
+
+        <div class="row">
+            
+            <div class="col-md-5">
                 <h1>Sarah Beecroft</h1>
             </div>
+            <!-- Adds spacing between h1 and navbar links-->
+            <div class="col-md-2"></div>
 
-     <!-- Bootstrap Navbar Code -->
-     <ul class="nav justify-content-end">
-        <li class="nav-item">
-          <a class="nav-link active" href="index.html">About</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="portfolio.html">Portfolio</a>
-        </li>
-        <li class="nav-item">
-          <a class="nav-link" href="contact.html">Contact</a>
-        </li>
-      </ul>
+            <div class="col-md-5">
+                
+                <nav>
+                    
+                    <ul class="nav justify-content-end">
+
+                        <li class="nav-item">
+                            <a class="nav-link active" href="index.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="portfolio.html">Portfolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="contact.html">Contact</a>
+                        </li>
+                        
+                    </ul>
+                
+                </nav>
+            </div>
+        
+        </div>
 
     </header>
+          
+        <div class="row">
+
+            <div class="col-md-4">
+                <h2>About Me</h2>
+            </div>
+        
+        <!-- Adds line break beneath h2 -->
+        <div class="col-md-12">
+        
+            <div class="row">
+                <hr>
+            </div>
+
+        </div>
+
+        <!-- Adds white space -->
+        <div class="col-md-12" style="height:20px;"></div>
+
+        <div class="row">
+            <div class="col-md-4">
+                <img src="assets/images/ProfileImage.jpg" class="img-fluid" alt="Photo of Sarah Beecroft">
+            </div>
+
+            <div class="col-md-8">
+                
+                <p class="bio">
+
+                        Hi, I'm Sarah! I was born and raised in Salt Lake City, but relocated to Seattle in
+                        2015 with my husband and two pups for a change of scenery. I'm an aspiring web developer with 8+
+                        years
+                        of
+                        digital marketing experience under my belt, including content writing, email marketing, and
+                        social
+                        media.
+                        I'm creative and thrive in environments that allow for growth
+                        and constant learning.
+                        <br>
+                        <br>
+                        When not at work, I enjoy kicking back with a video game (action-adventure RPGs are my thing),
+                        but also
+                        love
+                        exploring or checking out new breweries and restaurants.
+
+                    </p>
+
+                </div>
+
+            </div>
+        
+        <!-- Adds white space -->
+        <div class="col-md-12" style="height:50px;"></div>
+
+        <div class="row">
+
+            <div class="col-md-12">
+
+                    <div class="footer">
+                            <footer>
+                                <p id="copyright">Copyright ©</p>
+                            </footer>
+                    </div>        
+
+            </div>
 
 
-    <!-- About Me HTML -->
-    <div class="about">
-        <h2>About Me</h2>
-        <hr>
-        <img id="profilephoto" src="assets/images/ProfileImage.jpg" alt="Photo of Sarah Beecroft" />
-        <p class="bio">
+        </div>
 
+</div>
 
-            Hi, I'm Sarah! I was born and raised in Salt Lake City, but relocated to Seattle in
-            2015 with my husband and two pups for a change of scenery. I'm an aspiring web developer with 8+ years
-            of
-            digital marketing experience under my belt, including content writing, email marketing, and social
-            media.
-            I'm creative and thrive in environments that allow for growth
-            and constant learning.
-            <br>
-            <br>
-            When not at work, I enjoy kicking back with a video game (action-adventure RPGs are my thing), but also
-            love
-            exploring or checking out new breweries and restaurants.
-
-        </p><br>
-    </div>
-
-    <!-- Footer HTML -->
-    <div class="footer">
-        <footer>
-            <p id="copyright">Copyright ©</p>
-        </footer>
-
-    </div>
 </body>
 
 </html>

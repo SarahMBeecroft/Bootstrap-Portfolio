@@ -1,40 +1,17 @@
-/* Sets max-width to 960 for all content (except header), centers, and adds white background */
-div { 
-    max-width: 960px; 
-    margin: auto;
-    background: white;
-    }
-  
   /* Adds background image to site, sets background color, and font*/
   body {
-    background-image: url("../../assets/images/leaves-pattern.png");
+    background-image: url("../../assets/images/full-bloom.png");
     background-color: white;
     font-family: Arial, Helvetica, sans-serif;
     color: #777777;
-    margin: 0;
     line-height: 1.7em; 
    }
    
-  
-  
-  
-  
-  
   /* Header */
   /* Header style - adds background color, padding, and bottom border */ 
   header {
     background-color: #ffffff;
-    padding: 20px; 
-    overflow: hidden; /* Removes scroll bar from header  */
     border-bottom:1px solid #dddddd;
-    padding-bottom:10px;
-  }
-  
-  /* Clears h1 and nav bar */
-  .clearfix::after {
-    content: "";
-    clear: both;
-    display: table;
   }
   
   /* Adds styling to h1 (name) */
@@ -44,20 +21,13 @@ div {
     padding: 25px;
     font-size:32px;
     background-color: #4aaaa5;
-    color:#ffffff;
-    display: inline;
-    position: relative; 
-    float: left;
-    top: 32px;  /*  Moves inline with navigation links */
   }
   
   /* Nav bar styling */
   .nav {
-    display: inline-block;  /* Puts navigation links inline horizontally instead of vertically */
-    float: right; 
-    position: relative; 
+    display: inline-block;  /* Puts navigation links inline horizontally instead of vertically */ 
     overflow: hidden;
-    top: 65px;
+    align-content: right;
   }
   
   /* Navigation links positioning */
