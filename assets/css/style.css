@@ -16,7 +16,6 @@
   /* Header */
   /* Header style - adds background color, padding, and bottom border */ 
   header {
-    background-color: #ffffff;
     border-bottom: 1px solid #dddddd;
   }
   
@@ -37,9 +36,22 @@
     margin-top: 20px;
   }
   
-   /* Styles nav links and adds dividers */
-   nav a {
+  nav {
     color: #777777;
+  }
+   /* Adds dividers to nav links */
+   nav li {
+    border-left: 1px solid #dddddd; 
+  }
+
+  /* Removes border from left side of first nav link */
+  a.nav-link {
+    color: #777777;
+  }
+
+  .nav li:first-child {
+    border-left: 0 none;
+    height: 50%;
   }
   
   /* Changes link font and background color on hover */
@@ -49,8 +61,7 @@
   }
   
   
-  
-  
+
   
   
   /* About section styling */
@@ -63,32 +74,26 @@
   h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
     position: relative;
     top: 10px;
     margin-top: 20px;
-    margin-left: 20px;
+    border-bottom: 1px solid #dddddd;
+    padding-left: 20px;
   }
-  
-  /* Adds line break beneath h2 */
-  hr {
-    width: 95%;
-    border: 1px solid #dddddd;
-  }
-  
-  /* Profile Image */
-  .img-fluid {
-    margin-left: 50px;
-  }
-  
-  /* Paragraph About Me*/  
+
   .bio {
-    margin: 10px;
-    padding: 20px;
+    padding: 30px;
+    margin: 41px 20px 0px 10px;
   }
+  
+  /* Responsive image  */
+  img.img-fluid {
+    margin: 58px 0px 0px 25px;
+
     
-  
-  
-  
+  }
+
   
   
 
@@ -116,16 +121,16 @@ img {
   position: relative;
   text-align: center;
   color: white;
+  left: 155px;
 }
 
 /* Adds style to text blocks over portfolio images and moves to bottom-center */
 .bottom-center {
   position: absolute;
   bottom: 30px;
-  width: 246px; 
+  width: 270px; 
   height: 30px;
   left: 20px;
-  padding: 12px;
   background: #4aaaa5;
   color: white;
   font-family: Georgia, 'Times New Roman', Times, serif;
@@ -133,8 +138,9 @@ img {
 }
 
 .portfolio {
-  padding-bottom: 20px;
+  padding-bottom: 80px;
   margin-bottom: 40px;
+  align-content: center;
 }
 
 
@@ -147,7 +153,7 @@ img {
   /* Contact */
   /* Contact form styling */
   .contactform {
-    padding-bottom: 20px;
+    padding: 0px 40px 20px 40px;
     margin-bottom: 40px;
   }
   
