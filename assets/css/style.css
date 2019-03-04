@@ -41,8 +41,6 @@
    nav a {
     color: #777777;
   }
-
-
   
   /* Changes link font and background color on hover */
   a:hover {
@@ -65,11 +63,10 @@
   h2 {
     color: #4aaaa5;
     font-family: Georgia, 'Times New Roman', Times, serif;
-    margin: 10px;
-    padding: 20px;
     position: relative;
     top: 10px;
     margin-top: 20px;
+    margin-left: 20px;
   }
   
   /* Adds line break beneath h2 */
@@ -78,7 +75,10 @@
     border: 1px solid #dddddd;
   }
   
-
+  /* Profile Image */
+  .img-fluid {
+    margin-left: 50px;
+  }
   
   /* Paragraph About Me*/  
   .bio {
@@ -91,47 +91,54 @@
   
   
   
-  /* Portfolio */
-  /* Portfolio grid styling */
-  
-  .row {
 
-  }
-  
-  .column {
-    margin: 10px;
-  }
-  
-  /* Image styling  */
-  img {
-  }
-  
-  /* Container holding the image and the text */
-  .image {
-    position: relative;
-    text-align: center;
-    color: white;
-  }
-  
-  /* Adds style to text blocks over portfolio images and moves to bottom-center */
-  .bottom-center {
-    position: absolute;
-    bottom: 30px;
-    width: 246px; 
-    height: 30px;
-    left: 20px;
-    padding: 12px;
-    background: #4aaaa5;
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    text-align: center;
-  }
-  
-  .portfolio {
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-  }
-  
+/* Portfolio */
+/* Portfolio grid styling */
+
+
+.row {
+  display: flex;
+}
+
+.column {
+  margin: 10px;
+}
+
+/* Image styling  */
+img {
+  padding: 10px; 
+  padding-left: 10px;
+  margin-left: 10px;
+}
+
+/* Container holding the image and the text */
+.image {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+/* Adds style to text blocks over portfolio images and moves to bottom-center */
+.bottom-center {
+  position: absolute;
+  bottom: 30px;
+  width: 246px; 
+  height: 30px;
+  left: 20px;
+  padding: 12px;
+  background: #4aaaa5;
+  color: white;
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+}
+
+.portfolio {
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+}
+
+
+
   
   
   
