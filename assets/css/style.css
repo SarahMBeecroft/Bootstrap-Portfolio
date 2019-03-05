@@ -31,6 +31,7 @@
     text-align: center;
     border: none;
     display: inline-block; /* Trims h1 background */
+    margin-bottom: 0;
   }
   
   /* Nav link positioning */
