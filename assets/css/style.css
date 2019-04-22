@@ -4,154 +4,70 @@
     max-width: 960px;
 } 
  
- /* Adds background image to site, sets background color, and font*/
-  body {
-    background-image: url("../../assets/images/full-bloom.png");
-    background-color: white;
-    font-family: Arial, Helvetica, sans-serif;
-    color: #777777;
-    line-height: 1.7em; 
-   }
-
-  /* Header */
-  /* Header style - adds background color, padding, and bottom border */ 
-  header {
-    border-bottom: 1px solid #dddddd;
-  }
-  
-  /* Adds styling to h1 (name) */
-  h1 {
-    color: white;
-    font-family: Georgia, 'Times New Roman', Times, serif; 
-    padding: 20px;
-    font-size:32px;
-    background-color: #4aaaa5;
-    text-align: center;
-    border: none;
-    display: inline-block; /* Trims h1 background */
-    margin-bottom: 0;
-  }
-  
-  /* Nav link positioning */
-  .nav-item {
-    margin-top: 20px;
-  }
-  
-  nav {
-    color: #777777;
-  }
-   /* Adds dividers to nav links */
-   nav li {
-    border-left: 1px solid #dddddd; 
-  }
-
-  /* Removes border from left side of first nav link */
-  a.nav-link {
-    color: #777777;
-  }
-
-  .nav li:first-child {
-    border-left: 0 none;
-    height: 50%;
-  }
-  
-  /* Changes link font and background color on hover */
-  a:hover {
-    background-color: #4aaaa5;;
-    color: white;
-  }
-  
-  
-
-  
-  
-  /* About section styling */
-  .about {
-    padding-bottom: 20px;
-    margin-bottom: 40px;
-  }
-  
-  /* Makes h2 teal, positions it, and sets font */
-  h2 {
-    color: #4aaaa5;
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    font-size: 30px;
-    position: relative;
-    top: 10px;
-    margin-top: 20px;
-    border-bottom: 1px solid #dddddd;
-    padding-left: 20px;
-  }
-
-  .bio {
-    padding: 30px;
-    margin: 49px 20px 0px 10px;
-  }
-  
-  /* Responsive image  */
-  img.img-fluid {
-    margin: 58px 0px 0px 25px;
-
-    
-  }
-
-  
-  
-
-/* Portfolio */
-/* Portfolio grid styling */
-
-
-.row {
-  display: flex;
+/* Adds background image to site, sets background color, and font*/
+body {
+  background-image: url("../../assets/images/xv.png");
+  background-color: white;
+  font-family: 'Khula', sans-serif;
+  color: #2e2e2e;
+  line-height: 1.7em; 
+  overflow-x: hidden; /* Hides horizontal scroll bar */
 }
 
-.column {
-  margin: 10px;
+/* Header */
+header {
+  background: white;  
+  width:100%;
+}
+  
+/* Adds styling to h1 (name) */
+h1 {
+  font-family: 'Caveat', cursive;
+  font-size: 80px;
+  padding: 20px 0px 20px 0px;
+  background: white;
+  color: #6b6b6b;
+  text-align: center;
+  margin-right: 15px;
+}
+  
+/* Nav bar styling */
+#navbar {
+  background: #93bec9;
+}
+.nav-item {
+  background: #93bec9;
+  font-size: 25px;
 }
 
-/* Image styling  */
+a.nav-link {
+  color: white;
+  padding: 20px;
+}
+
+/* Changes link background color on hover */
+a:hover {
+  background-color: #4699a8;
+}
+
+
+/* About section styling */
+/* Profile photo */
 img {
-  padding-left: 10px;
-  margin-left: 10px;
+  border-radius: 10px; /* Makes border on image slightly rounded */
+  width: 200px;
+  height: 150px; 
+  margin: 50px 0px 0px 35px;
 }
 
-/* Container holding the image and the text */
-.image {
-  position: relative;
-  text-align: center;
-  color: white;
-  left: 155px;
+.bio {
+  margin: 55px 65px 0px 0px;
 }
-
-/* Adds style to text blocks over portfolio images and moves to bottom-center */
-.bottom-center {
-  position: absolute;
-  bottom: 20px;
-  left: 35px;
-  width: 270px; 
-  height: 50px;
-  background: #4aaaa5;
-  color: white;
-  font-family: Georgia, 'Times New Roman', Times, serif;
-  text-align: center;
-  padding-top: 10px; /* Centers text vertically */ 
-}
-
-.portfolio {
-  padding-bottom: 80px;
-  margin-bottom: 40px;
-  align-content: center;
-}
-
-
-
-  
-  
   
   
 
-  
+
+
   /* Contact */
   /* Contact form styling */
   .contactform {
@@ -172,7 +88,7 @@ img {
   
   /* Styles the "submit button" */
   input[type=submit] {
-    background-color: #4aaaa5;
+    background-color: #0096a3;
     color: white;
     padding: 10px 35px;
     border: 1px solid #dddddd;
@@ -198,9 +114,9 @@ img {
     right: 0;
     bottom: 0;
     text-align: center;
-    background-color: #666666;
-    border-top: 8px solid #4aaaa5;
+    background-color: #93bec9;
     padding: 10px;
+    height: 60px;
     }
   
   #copyright {
