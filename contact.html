@@ -5,119 +5,139 @@
 
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title>Contact</title>
+  <title>Contact Me</title>
 
-  <!-- Link to Bootstrap CSS here-->
+  <!-- Links to Bootstrap-->
   <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css"
     integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-  <!-- Link to my style sheet here -->
+
+  <!-- Links to  my CSS -->
   <link rel="stylesheet" type="text/css" href="assets/css/style.css" />
+
+  <!-- Links to Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Bilbo+Swash+Caps|Khula" rel="stylesheet">
 
 </head>
 
 <body>
-  <!-- Bootstrap container -->
-  <div class="container">
 
-    <!-- Adds white space -->
-    <div class="row" style="height:20px;"></div>
-
-    <header>
-
-      <div class="row">
-
-        <div class="col-5">
-          <h1>Sarah Beecroft</h1>
-        </div>
-
-        <!-- Adds spacing between h1 and nav-->
-        <div class="col-2"></div>
-
-        <div class="col-5">
-
-          <!-- Navbar -->
-          <nav>
-
-            <ul class="nav justify-content-end">
-              <!-- Fixes navlinks to right -->
-
-              <li class="nav-item">
-                <a class="nav-link" href="index.html">About</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link" href="portfolio.html">Portfolio</a>
-              </li>
-              <li class="nav-item">
-                <a class="nav-link active" href="contact.html">Contact</a>
-              </li>
-
-            </ul>
-
-          </nav>
-
-        </div>
-
-      </div>
-
-    </header>
-
+  <!-- Header -->
+  <header>
 
     <div class="row">
 
-      <div class="col-12">
-        <h2>Contact Me</h2>
+      <!-- White space -->
+      <div class="col-4"></div>
+
+      <!-- Header -->
+      <div class="col-4">
+        <h1>Sarah Beecroft</h1>
       </div>
 
-      <!-- Contact Form HTML -->
-      <div class="contactform">
+      <!-- White space -->
+      <div class="col-4"></div>
+
+    </div>
+
+  </header>
 
 
-        <div class="container">
-          <form action="none">
+  <!-- Nav bar -->
+  <div class="row" id="navbar">
 
-            <label for="name">Name</label>
-            <input type="text" id="name" name="full name" placeholder="John Smith">
+    <div class="col-12">
 
-            <label for="email">Email</label>
-            <input type="text" id="email" name="email" placeholder="example@gmail.com">
+      <ul class="nav justify-content-center">
+        <li class="nav-item">
+          <a class="nav-link" href="index.html">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="portfolio.html">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link active" href="contact.html">Contact</a>
+        </li>
+      </ul>
 
-            <label for="message">Message</label>
-            <textarea id="message" name="message" placeholder="Write your message here" style="height:200px"></textarea>
+    </div>
 
-            <input type="submit" value="Submit"> <!-- Submit button -->
+  </div>
 
-          </form>
+  <!-- Puts image and about me content in container -->
+  <div class="container">
 
+    <div class="row">
+
+      <div class="col-6">
+
+        <h2>Contact Me</h2>
+
+      </div>
+
+      <!--White Space -->
+      <div class="col-6" id="border"></div>
+
+    </div>
+
+    <div class="row">
+      
+      <!-- White Space -->
+      <div class="col-1"></div>
+
+      <div class="col-10">
+
+        <div class="contactform">
+
+          <div class="container">
+            <form action="none">
+
+              <label for="name">Name</label>
+              <input type="text" id="name" name="full name" placeholder="John Smith">
+
+              <label for="email">Email</label>
+              <input type="text" id="email" name="email" placeholder="example@gmail.com">
+
+              <label for="message">Message</label>
+              <textarea id="message" name="message" placeholder="Write your message here"
+                style="height:200px"></textarea>
+
+              <input type="submit" value="Submit"> <!-- Submit button -->
+
+            </form>
+
+          </div>
+
+        </div>
+
+        <!-- White Space -->
+        <div class="col-1"></div>
+
+      </div>
+
+      <!--End of Bootstrap container -->
+    </div>
+
+    <!-- Footer -->
+    <div class="row">
+
+      <div class="col-md-12">
+
+        <div class="footer">
+          <footer>
+            <div class="logos">
+              <a href="https://github.com/SarahMBeecroft" target="_blank" class="noHover"><img
+                  src="./assets/images/githublogo.png" id="github" alt="White Github Logo"></a> <a
+                href="https://www.linkedin.com/in/sarah-beecroft-347b8747/" target="_blank"><img
+                  src="./assets/images/linkedinlogo.png" id="linkedin" alt="White LinkedIn Logo"></a> <a
+                href="https://twitter.com/sarah_bean" target="_blank"><img src="./assets/images/twitterlogo.png"
+                  id="twitter" alt="White twitter Logo"></a>
+            </div>
+          </footer>
         </div>
 
       </div>
 
     </div>
-
-    <!-- Padding -->
-    <div class="col-2">
-    </div>
-
-  </div>
-
-
-  <!-- Adds white space -->
-  <div class="col-12" style="height:50px;"></div>
-
-  <div class="row">
-
-    <div class="col-12">
-
-      <div class="footer">
-        <footer>
-          <p id="copyright">Copyright ©</p>
-        </footer>
-      </div>
-
-    </div>
-
-  </div>
-
 
 </body>
 
